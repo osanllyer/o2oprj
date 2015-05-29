@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:43:33 +0800] "GET /o2oprj HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:43:33 +0800] "GET /o2oprj/ HTTP/1.1" 500 11648 http-bio-9090-exec-2 132
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:43:33 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:43:33 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:43:44 +0800] "GET /o2oprj/hello HTTP/1.1" 200 14 http-bio-9090-exec-5 11
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:16:44:06 +0800] "GET /o2oprj/demo HTTP/1.1" 200 193 http-bio-9090-exec-8 10010
+0:0:0:0:0:0:0:1 - - [22/Apr/2015:18:01:34 +0800] "GET /o2oprj/compare HTTP/1.1" 404 1049 http-bio-9090-exec-1 74
