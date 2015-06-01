@@ -101,7 +101,24 @@
 		    <groupId>org.hsqldb</groupId>
 		    <artifactId>hsqldb</artifactId>
 		    <version>2.3.2</version>
-		</dependency>        
+		</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.7.5</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-dbcp2</artifactId>
+		<version>2.1</version>
+	</dependency>
+	<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.35</version>
+</dependency>
+	
+		        
     </dependencies>
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
