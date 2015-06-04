@@ -24,6 +24,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @ComponentScan(value="com.lfb")
 @PropertySources({
+	@PropertySource("classpath:app.properties"),
 	@PropertySource("classpath:db.properties"),
 	@PropertySource("classpath:search.properties")
 })
@@ -76,8 +77,8 @@ public class AppConfig{
 		factory.setJpaVendorAdapter(vendorAdapter);
 		factory.setPackagesToScan("com.lfb");
 		factory.setDataSource(dataSource());
+		factory.setJpaProperties(getJpaProperties());		
 		factory.afterPropertiesSet();
-		factory.setJpaProperties(getJpaProperties());
 
 		return factory.getObject();
 	}
